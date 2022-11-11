@@ -1,0 +1,69 @@
+/* double slider */
+.btn-base-lg {
+    padding: 17px 20px;
+}
+
+.btn-base-md {
+    padding: 16px 26px;
+}
+
+.btn-base-small {
+    padding: 12px 21px;
+}
+
+
+.btn-base {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    background-color: transparent;
+
+    transform: translateY(0);
+    transition: all .3s ease-in;
+}
+
+
+.btn-base:hover,
+.btn-base:focus {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-10px);
+}
+
+
+.btn-blue-white {
+     background-color: #4080FF;
+}
+
+.btn-blue-white:hover,
+.btn-blue-white:focus {
+    color:#4080FF;
+    border: 1px solid #4080FF;
+    background: transparent;
+}
+
+
+.btn-green-red {
+    background-color: #4cd7ab;
+}
+
+.btn-green-red:hover,
+.btn-green-red:focus {
+    background: #EF5350;
+}
+
+.btn-white-blue {
+    color: #4080FF;
+    border: 1px solid #4080FF;
+}
+
+.btn-white-blue:hover,
+.btn-white-blue:focus {
+    background: #4080FF;
+}
